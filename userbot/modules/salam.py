@@ -30,10 +30,10 @@ async def _(typew):
         typew.chat_id, "𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇......", reply_to=typew.reply_to_msg_id)
     await typew.delete()
 
-@register(outgoing=True, pattern='^K(?: |$)(.*)')
+@register(outgoing=True, pattern='^GANTENG(?: |$)(.*)')
 async def _(typew):
     await typew.client.send_message(
-        typew.chat_id, "**KONTOL LO ANAK BAJINGAN BANGSAT BEDEBAH LO NGENTOT ANAK HARAM UTUSAN DAJAL PEMYEMBAH KAMBING HAGO LO, LAHIR DARI MEMEK LONTE LO KONTOL BGST ANJING!!!!!**", reply_to=typew.reply_to_msg_id)
+        typew.chat_id, "**IKY PALING GANTENG GAADA OBAT🥵**", reply_to=typew.reply_to_msg_id)
     await typew.delete()
 
 @register(outgoing=True, pattern='^N(?: |$)(.*)')

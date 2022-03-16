@@ -101,7 +101,7 @@ async def _(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await ram.edit(
-        f"**⭐IKY-UBOT⭐**\n"
+        f"**⭐ᴋᴀᴄᴜɴɢ ɪᴋʏ⭐**\n"
         f"** ➠  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ➠  Bᴏᴛᴠᴇʀ  :** "

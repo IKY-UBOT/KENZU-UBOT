@@ -87,7 +87,7 @@ async def _(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    ram = await edit_or_reply(pong, "**Mengecek Sinyal...**")
+    ram = await edit_or_reply(pong, "**Sabar Ya Tod...**")
     await ram.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
     await ram.edit("**20% ██▒▒▒▒▒▒▒▒**")
     await ram.edit("**40% ████▒▒▒▒▒▒**")
@@ -101,7 +101,7 @@ async def _(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await ram.edit(
-        f"**🌟𝗥𝗔𝗠-𝗨𝗕𝗢𝗧🌟**\n"
+        f"**⭐IKY-UBOT⭐**\n"
         f"** ➠  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ➠  Bᴏᴛᴠᴇʀ  :** "
@@ -146,7 +146,7 @@ async def redis(pong):
     await pong.edit(
         f"**➾ OWNER      :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"**➾ Kecepatan : ** %sms  \n"
-        f"**➾ Branch       : ** [{REPO_NAME}](https://t.me/ram_ubot) \n" % (duration)) 
+
 
 
 @ram_cmd(pattern="rping$")
@@ -191,7 +191,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   f"✧ **BOT:** {REPO_NAME}")
+
 
 
 def speed_convert(size):

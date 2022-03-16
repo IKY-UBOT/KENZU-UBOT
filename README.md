@@ -7,12 +7,12 @@
 # USERBOT TELEGRAM YANG MENGANDUNG MODUL TOXIC, JANGAN ASAL KETIK YA TOLOL!
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+  <a href="https://github.com/IKY-UBOT/RAM-UBOT/fork">
+    <img src="https://img.shields.io/github/forks/IKY-UBOT/RAM-UBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+  <a href="https://github.com/IKY-UBOT/RAM-UBOT">
+    <img src="https://img.shields.io/github/stars/IKY-UBOT/RAM-UBOT?style=social">
   </a>
 </p>  
 

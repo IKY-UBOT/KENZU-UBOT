@@ -123,7 +123,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/ramadhani892/RAM-UBOT")
+    "https://github.com/IKY-UBOT/KENZU-UBOT")
 
 # sudo
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
@@ -255,7 +255,7 @@ while 0 < 6:
 del _BLACKLIST
 
 # Default .alive Name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Ram-ubot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", KENZU-UBOT")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -271,7 +271,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "KENZU-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "9.2.1")
@@ -453,7 +453,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**RAM-UBOT v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**KENZU-UBOT v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -539,11 +539,9 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **RAM-UBOT** \n\n"
-                f"       __Thanks For Using me__\n\n"
-                f" **Group Support :** [RAM UBOT](t.me/Ramsupportt)\n"
-                f" **Owner Repo :** [Merdhani](t.me/merdhni)\n"
-                f" **Repo :** [KLIK NGENTOT](https://github.com/ramadhani892/RAM-UBOT)\n"
+                f"**Hey**, __I am using__  **KENZU-UBOT** \n\n"
+                f"       __Thanks For Using me__\n\n
+                f" **Repo :** [KLIK NGENTOT](https://github.com/IKY-UBOT/KENZU-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -552,8 +550,8 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="REPO RAM-UBOT",
-                            url="https://github.com/ramadhani892/RAM-UBOT",
+                            text="REPO KENZU-UBOT",
+                            url="https://github.com/IKY-UBOT/KENZU-UBOT",
                         )
                     ],
                     [
